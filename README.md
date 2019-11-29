@@ -1,3 +1,13 @@
+# Como "enlazarte" a un repo creado en local
+* git init 
+* Nos creamos el repo en GitHub -> cogemos la URL
+* git remote add origin URL
+* Si queremos modificar:
+	* git add; git commit -m "---"
+* git push origin master
+* git pull origin master
+
+# Otras cosas
 alias gitgraph="git log --all --decorate --oneline --graph" -> para poder utilizar gitgraph
 
 git clone <dir navegador>
@@ -13,7 +23,7 @@ git push <remote> <rama> -> para subir desde mi working area a mi repo grupal un
 
 git branch -vv-> me refleja el estado de mis ramas locales y las remotas
 
-##DESPUES DE ACTUALIZAR UN FICHERO
+# DESPUES DE ACTUALIZAR UN FICHERO
 ##SIEMPRE EN UNA RAMA QUE NO SEA LA MASTER
 git status -> vemos lo que tenemos que actualizar, si esta en rojo git add y luego git commit; y si esta en verde solo hará falta el git commit
 
